@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f1b8e24-fc65-4264-9134-d2996182b464" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC01GetRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC02PostRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC03GetRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC04GetRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC05PutRequest.java" afterDir="false" />
+    <list default="true" id="2f1b8e24-fc65-4264-9134-d2996182b464" name="Changes" comment="Added Get, Post and Put methods with Rest-assured">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BasicResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BasicResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ValidatableResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ValidatableResponseBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +42,12 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TC05PutRequest.putRequest (4)">
-    <configuration name="TC05PutRequest.putRequest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BasicResponseBody.jsonPathReturnsMap">
+    <configuration name="BasicResponseBody.jsonPathReturnsMap" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TC05PutRequest" />
-      <option name="METHOD_NAME" value="putRequest" />
+      <option name="MAIN_CLASS_NAME" value="BasicResponseBody" />
+      <option name="METHOD_NAME" value="jsonPathReturnsMap" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -62,11 +55,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC05PutRequest.putRequest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicResponse.prettyPeek" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TC05PutRequest" />
-      <option name="METHOD_NAME" value="putRequest" />
+      <option name="MAIN_CLASS_NAME" value="BasicResponse" />
+      <option name="METHOD_NAME" value="prettyPeek" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -74,11 +67,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC05PutRequest.putRequest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicResponse.timeResponse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TC05PutRequest" />
-      <option name="METHOD_NAME" value="putRequest" />
+      <option name="MAIN_CLASS_NAME" value="BasicResponse" />
+      <option name="METHOD_NAME" value="timeResponse" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -86,11 +79,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC05PutRequest.putRequest (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidatableResponse.complexHamcrestMatchers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TC05PutRequest" />
-      <option name="METHOD_NAME" value="putRequest" />
+      <option name="MAIN_CLASS_NAME" value="ValidatableResponse" />
+      <option name="METHOD_NAME" value="complexHamcrestMatchers" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -98,11 +91,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC05PutRequest.putRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidatableResponse.simpleHamcrestMatchers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TC05PutRequest" />
-      <option name="METHOD_NAME" value="putRequest" />
+      <option name="MAIN_CLASS_NAME" value="ValidatableResponse" />
+      <option name="METHOD_NAME" value="simpleHamcrestMatchers" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC05PutRequest.putRequest (4)" />
-        <item itemvalue="TestNG.TC05PutRequest.putRequest" />
-        <item itemvalue="TestNG.TC05PutRequest.putRequest (3)" />
-        <item itemvalue="TestNG.TC05PutRequest.putRequest (2)" />
-        <item itemvalue="TestNG.TC05PutRequest.putRequest (1)" />
+        <item itemvalue="TestNG.BasicResponseBody.jsonPathReturnsMap" />
+        <item itemvalue="TestNG.BasicResponse.prettyPeek" />
+        <item itemvalue="TestNG.ValidatableResponse.complexHamcrestMatchers" />
+        <item itemvalue="TestNG.ValidatableResponse.simpleHamcrestMatchers" />
+        <item itemvalue="TestNG.BasicResponse.timeResponse" />
       </list>
     </recent_temporary>
   </component>
@@ -129,6 +122,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667290491848</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Get, Post and Put methods with Rest-assured">
+      <created>1667325384278</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667325384278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,5 +142,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Get, Post and Put methods with Rest-assured" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Get, Post and Put methods with Rest-assured" />
   </component>
 </project>
