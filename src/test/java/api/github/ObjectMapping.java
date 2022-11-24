@@ -1,13 +1,16 @@
+package api.github;
+
+import Users.AnotherUser;
+import Users.User;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
 import io.restassured.internal.mapping.Jackson2Mapper;
 import io.restassured.path.json.mapper.factory.Jackson2ObjectMapperFactory;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.lang.reflect.Type;
-
-import static org.testng.Assert.assertEquals;
 
 public class ObjectMapping {
     public static final String BASE_URI = "https://api.github.com/users/rest-assured";
@@ -17,9 +20,9 @@ public class ObjectMapping {
         User user = RestAssured.get(BASE_URI)
                 .as(User.class);
 
-        assertEquals(user.getLogin(), "rest-assured");
-        assertEquals(user.getId(), 19369327);
-        assertEquals(user.getPublicRepos(), 2);
+        Assert.assertEquals(user.getLogin(), "rest-assured");
+        Assert.assertEquals(user.getId(), 19369327);
+        Assert.assertEquals(user.getPublicRepos(), 2);
     }
 
     @Test
@@ -36,8 +39,8 @@ public class ObjectMapping {
         AnotherUser user = RestAssured.get(BASE_URI)
                 .as(AnotherUser.class, mapper);
 
-        assertEquals(user.login, "rest-assured");
-        assertEquals(user.id, 19369327);
-        assertEquals(user.public_repos, 2);
+        Assert.assertEquals(user.login, "rest-assured");
+        Assert.assertEquals(user.id, 19369327);
+        Assert.assertEquals(user.public_repos, 2);
     }
 }

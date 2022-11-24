@@ -1,12 +1,13 @@
+package api.github;
+
 import io.restassured.RestAssured;
-import io.restassured.http.Header;
-import io.restassured.http.Headers;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TC04GetRequest {
+public class TC03GetRequest {
     @Test
     void googleMapTest() {
         //Specify base URI
@@ -22,10 +23,14 @@ public class TC04GetRequest {
         String responseBody = response.getBody().asString();
         System.out.println("Response body is: " + responseBody);
 
-        //capture all headers from response
-        Headers allHeaders = response.headers();
-        for (Header header : allHeaders) {
-            System.out.println(header.getName() + "       " + header.getValue());
-        }
+        //capture details of headers from response
+        //validating headers
+        String contentType = response.header("Content-Type");
+        System.out.println("Content type is: " + contentType);
+        Assert.assertEquals(contentType, "application/xml; charset=UTF-8");
+
+        String contentEncoding = response.header("Content-Encoding");
+        System.out.println("Content type is: " + contentEncoding);
+        Assert.assertEquals(contentEncoding, "gzip");
     }
 }

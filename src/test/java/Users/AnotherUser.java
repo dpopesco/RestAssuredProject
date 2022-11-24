@@ -1,3 +1,5 @@
+package Users;
+
 public class AnotherUser {
 
     public String login;

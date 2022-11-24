@@ -1,3 +1,5 @@
+package api.github;
+
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -25,7 +27,7 @@ public class TC02PostRequest {
         httpRequest.body(requestParam.toJSONString());
 
         //Response object
-        Response response = httpRequest.post("/User");
+        Response response = httpRequest.post("/Users.User");
 
         //print response in console window
         String responseBody = response.getBody().asString();
