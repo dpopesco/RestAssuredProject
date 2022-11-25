@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f1b8e24-fc65-4264-9134-d2996182b464" name="Changes" comment="Added methods with Rest Assured Fluent Interface for Headers and for Body">
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/exercises/GetRequests.java" afterDir="false" />
+    <list default="true" id="2f1b8e24-fc65-4264-9134-d2996182b464" name="Changes" comment="Added Get requests for automationexercises">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnotherUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Users/AnotherUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Users/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BasicResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/github/BasicResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BasicResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/github/BasicResponseBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HeadAndOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/github/HeadAndOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MapperTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ObjectMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/github/ObjectMapping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PostPatchDeleteMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/github/PostPatchDeleteMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TC01GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/github/TC01GetRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TC02PostRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/github/TC02PostRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TC03GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/github/TC03GetRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TC04GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/github/TC04GetRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TC05PutRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/github/TC05PutRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ValidatableResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/github/ValidatableResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ValidatableResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/github/ValidatableResponseBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ValidatableResponseRepeatingItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/github/ValidatableResponseRepeatingItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automation/exercises/GetRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/exercises/GetRequests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +43,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Projects/Automation/RestAssuredProject"
+    "last_opened_file_path": "D:/Projects/Automation/AutomationExercises"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.ObjectMapping">
+  <component name="RunManager" selected="TestNG.PostRequests.postUserAccount">
     <configuration name="GetRequests.getBrands" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredProject" />
       <extension name="coverage">
@@ -93,24 +76,6 @@
       <option name="PACKAGE_NAME" value="automation.exercises" />
       <option name="MAIN_CLASS_NAME" value="automation.exercises.GetRequests" />
       <option name="METHOD_NAME" value="getProducts" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetRequests.getRequest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="automation.exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="automation.exercises" />
-      <option name="MAIN_CLASS_NAME" value="automation.exercises.GetRequests" />
-      <option name="METHOD_NAME" value="getRequest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -171,13 +136,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostRequests.postUserAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automation.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automation.exercises" />
+      <option name="MAIN_CLASS_NAME" value="automation.exercises.PostRequests" />
+      <option name="METHOD_NAME" value="postUserAccount" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ObjectMapping" />
-        <item itemvalue="TestNG.GetRequests.getUserAccountDetailByEmail" />
+        <item itemvalue="TestNG.PostRequests.postUserAccount" />
         <item itemvalue="TestNG.GetRequests.getBrands" />
         <item itemvalue="TestNG.GetRequests.getProducts" />
-        <item itemvalue="TestNG.GetRequests.getRequest" />
+        <item itemvalue="TestNG.ObjectMapping" />
+        <item itemvalue="TestNG.GetRequests.getUserAccountDetailByEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667408466853</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Get requests for automationexercises">
+      <created>1669326363547</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669326363547</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +211,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Get, Post and Put methods with Rest-assured" />
     <MESSAGE value="Added methods with Rest Assured Fluent Interface for Headers and for Body" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added methods with Rest Assured Fluent Interface for Headers and for Body" />
+    <MESSAGE value="Added Get requests for automationexercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Get requests for automationexercises" />
   </component>
 </project>
